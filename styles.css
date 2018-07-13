@@ -1,0 +1,151 @@
+@media screen and (max-width: 833px) {
+    .input-field {
+        width: 80%;
+    }
+    select {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .labels {
+        width: 100%;
+        text-align: left;
+    }
+    .input {
+        width: 80%;
+        float: left;
+    }
+    .input-field {
+        width: 100%;
+    }
+    select {
+        width: 100%;
+    }
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #3fc1c9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #f5f5f5;
+}
+
+header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+hr {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 70rem;
+    max-width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+        to right,
+        rgba(252, 81, 133, 0),
+        rgba(252, 81, 133, 0.75),
+        rgba(252, 81, 133, 0)
+    );
+}
+
+#form {
+    background-color: #364f6b;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 75%;
+    max-width: 90rem;
+    padding: 2rem;
+    color: #f5f5f5;
+}
+
+#description {
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.labels {
+    width: 30rem;
+    margin: auto;
+    margin-right: 1rem;
+    text-align: right;
+}
+
+.input {
+    width: 30rem;
+    margin: auto;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.input-field {
+    height: 2rem;
+    width: 28rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+.select,
+input[type='checkbox'] {
+    float: left;
+    margin-right: 0.5rem;
+}
+
+#submit {
+    background-color: #fc5185;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.6rem;
+    height: 4rem;
+    width: 10rem;
+    margin: 1rem;
+    border: 0px solid;
+}
+
+.dropdown {
+    height: 3.5rem;
+    width: 14rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+.radio,
+.checkbox {
+    position: relative;
+    margin-left: 1rem;
+    display: block;
+    padding-bottom: 1rem;
+}
